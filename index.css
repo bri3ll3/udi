@@ -1,0 +1,80 @@
+body {
+    background-color: #f4f7e6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 20px;
+}
+
+.udi-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 { text-align: center; margin-bottom: 15px; }
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    font-size: 13px;
+}
+
+.header-blue { background-color: #5fb1cc; padding: 8px; border: 1px solid #333; }
+.header-orange { background-color: #ffb400; padding: 8px; border: 1px solid #333; text-align: center; }
+.subtext { font-style: italic; font-weight: normal; font-size: 0.9em; text-align: center;}
+
+
+td { border: 1px solid #333; height: 35px; vertical-align: middle; }
+
+
+.label-blue { background-color: #5fb1cc; font-weight: bold; padding: 5px; }
+.met-label { background-color: #ffffc2; font-weight: bold; padding: 5px; text-align: center; }
+.content-box { background-color: #ebebd2; }
+
+.no-padding { padding: 0; }
+.flex-row { display: flex; justify-content: space-around; background-color: #ffffc2; padding: 5px 0; }
+.met-item { display: flex; align-items: center; gap: 5px; font-size: 11px; }
+.mini-box { width: 25px; height: 20px; border: 1px solid #333; background: #ebebd2; }
+
+
+.adf-headers td { text-align: center; font-weight: bold; color: black; }
+.zone-interactua { background-color: #c225a8; }
+.zone-investiga { background-color: #b1a0c7; }
+.zone-desarrolla { background-color: #ff0000; }
+.zone-crea { background-color: #92d050; }
+.zone-explora { background-color: #ffff00; }
+.zone-presenta { background-color: #e46c0a; }
+
+.adf-content td { background-color: #ebebd2; height: 60px; }
+
+
+.header-dark-blue {
+    background-color: #4a7ebb; 
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+.header-dark-blue .subtext {
+    color: #000000;
+}
+
+.label-blue-dark {
+    background-color: #71afc2;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #444;
+    padding: 5px;
+}
+
+.actividades-fila td {
+    height: 40px;
+}
+
+.contexto-row td.content-box:not([colspan]) {
+    width: 2.5%;
+}
+
+.contexto-row td.met-label {
+    width: auto;
+}
